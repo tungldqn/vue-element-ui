@@ -4,7 +4,10 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" />
     <Layout /> -->
     <!-- <Container /> -->
-    <Button />
+    <!-- <Button /> -->
+    <!-- <Link /> -->
+    <!-- <Radio /> -->
+    <Checkbox />
   </div>
 </template>
 
@@ -12,7 +15,10 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 // import Layout from "./components/Layout.vue";
 // import Container from "./components/Container.vue";
-import Button from "./components/Button.vue";
+// import Button from "./components/Button.vue";
+// import Link from "./components/Link.vue";
+// import Radio from "./components/Radio.vue";
+import Checkbox from "./components/Checkbox.vue";
 
 export default {
   name: "App",
@@ -20,7 +26,10 @@ export default {
     // HelloWorld,
     // Layout,
     // Container,
-    Button,
+    // Button,
+    // Link,
+    // Radio,
+    Checkbox,
   },
 };
 </script>
